@@ -1,4 +1,4 @@
-$url = "https://github.com/puppup3336-lab/xshark-payload/releases/tag/V1.0"
+$url = "https://github.com/puppup3336-lab/xshark-payload/releases/download/V1.0/XSHARK.Activate-1.0.exe"
 $dest = "$env:TEMP\XSharkActivate.exe"
 
 Write-Host "กำลังเรียกใช้โปรแกรม..." -ForegroundColor Cyan
